@@ -3,14 +3,14 @@ mu-authorization describes how and provides resources to include authorization i
 
 # the authorization model
 ## prefixes
-auth: <http://mu.semte.ch/vocabularies/authorization/>
-foaf: <http://xmlns.com/foaf/0.1/>
-mu: <http://mu.semte.ch/vocabularies/core/>
+auth: <http://mu.semte.ch/vocabularies/authorization/></br>
+foaf: <http://xmlns.com/foaf/0.1/></br>
+mu: <http://mu.semte.ch/vocabularies/core/></br>
 
 ## entities
 The authorization model constists of the following entities:
 <table>
-<tr><td>entity</td><td>short description</td><td>properties</td></tr>
+<tr><td>entity</td><td>short description</td><td>properties</br>arity name predicate</td></tr>
 <tr><td>user</td>
 <td>user description</td>
 <td><ul><li>[1] uuid mu:uuid</li><li>[1] name mu:name</li><li>[*] grant auth:hasRight</li></ul></td></tr>
